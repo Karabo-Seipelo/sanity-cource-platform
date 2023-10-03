@@ -1,0 +1,49 @@
+{
+  "name": "demo-course-platform",
+  "private": true,
+  "version": "1.0.0",
+  "main": "package.json",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "dev": "sanity dev",
+    "build": "sanity build",
+    "deploy": "sanity deploy",
+    "lint": "eslint . --fix"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/code-input": "^4.0.0",
+    "@sanity/dashboard": "^3.1.4",
+    "@sanity/document-internationalization": "^2.0.1",
+    "@sanity/eslint-config-studio": "^2.0.0",
+    "@sanity/language-filter": "^3.1.2",
+    "@sanity/vision": "^3.4.0",
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "framer-motion": "^9.0.4",
+    "groq": "^3.4.0",
+    "prettier": "^2.7.1",
+    "react": "^18.2.0",
+    "react-archer": "^4.1.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-is": "^18.2.0",
+    "react-xarrows": "^2.0.2",
+    "sanity": "^3.13.0",
+    "sanity-plugin-dashboard-widget-vercel": "^2.0.1",
+    "sanity-plugin-documents-pane": "^2.0.0",
+    "sanity-plugin-google-translate": "^3.0.0",
+    "sanity-plugin-iframe-pane": "^2.0.0",
+    "sanity-plugin-internationalized-array": "^1.7.0",
+    "sanity-plugin-schema-visualizer": "^1.0.0",
+    "sanity-plugin-transifex": "^3.0.0",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.26"
+  }
+}
